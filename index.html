@@ -3,14 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <title>Youtube Clone</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
   <nav class="nav-container">
-    <div class="nav-item nav-start"></div>
-    <div class="nav-item nav-center"></div>
-    <div class="nav-item nav-end"></div>
+    <div class="nav-item nav-start">
+      <div class="menu-container">
+        <span class="material-icons">menu</span>
+      </div>
+      <div class="logo-container">
+        <img class="youtube-logo" src="images/yt_logo_rgb_light.png" alt="youtube logo">
+      </div>
+    </div>
+    <div class="nav-item nav-center">
+      <div class="searchbar-container">
+        <input class="searchbar" type="text" placeholder="Search">
+      </div>
+      <div class="search-btn-container">
+        <span class="search-btn material-icons">search</span>
+      </div>
+      <div class="mic-container"><span class="material-icons">mic</span></div>
+    </div>
+    <div class="nav-item nav-end">
+      <div class="apps-container">
+        <span class="material-icons">apps</span>
+      </div>
+      <div class="settings-container">
+        <span class="material-icons">more_vert</span>
+      </div>
+      <div class="sign-in-container">
+        <span class="account-circle material-icons">account_circle</span>SIGN IN
+      </div>
+    </div>
   </nav>
 
   <div class="main-container">
