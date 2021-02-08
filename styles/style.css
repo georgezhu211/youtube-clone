@@ -3,6 +3,7 @@ body {
 }
 
 /* NAV CSS */
+
 .nav-container {
   background-color: white;
   height: 55px;
@@ -139,11 +140,11 @@ body {
 /* MAIN CSS */
 
 .main-container {
-  border: 1px solid blue;
   width: 93%;
   margin: 80px auto 0 auto;
   display: flex;
   justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-left {
@@ -181,27 +182,59 @@ body {
 /* SIDEBAR CSS */
 
 .main-right {
-  border: 1px solid purple;
   flex: initial;
   width: 400px;
 }
 
 .recommend-container {
-  border: 1px solid green;
   display: flex;
   margin-bottom: 8px;
 }
 
 .thumbnail-container {
   height: 100%;
+  position: relative;
 }
 
 .image {
   display: block;
 }
 
+.time-stamp {
+  position: absolute;
+  background-color: black;
+  top: 70px;
+  right: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 4px;
+}
+
 .thumbnail-description {
-  border: 1px solid purple;
-  margin-left: 8px;
+  margin: 0 10px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail-item {
+  margin-bottom: 6px;
+  color: #616161;
+  font-size: 13px;
+}
+
+.thumbnail-description :first-child {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+
+.live-now {
+  border: 1px solid red;
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px;
+  width: 58px;
 }
