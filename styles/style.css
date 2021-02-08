@@ -192,6 +192,48 @@ body {
   display: block;
 }
 
+.thumbnail-container:hover .play-arrow,
+.thumbnail-container:hover .playlist-play,
+.thumbnail-container:hover .watch-later {
+  visibility: visible;
+}
+
+.watch-later {
+  position: absolute;
+  background-color: black;
+  top: 5px;
+  right: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px 4px;
+  visibility: hidden;
+}
+
+.playlist-play {
+  position: absolute;
+  background-color: black;
+  top: 35px;
+  right: 5px;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 2px 3px;
+  visibility: hidden;
+}
+
+.play-arrow {
+  position: absolute;
+  top: 25px;
+  right: 55px;
+  color: white;
+  font-size: 52px;
+  font-weight: 500;
+  padding: 2px 3px;
+  visibility: hidden;
+}
+
+
 .time-stamp {
   position: absolute;
   background-color: black;
